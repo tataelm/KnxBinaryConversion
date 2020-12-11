@@ -23,10 +23,15 @@ First you need to create your **Communication Object**
 There are different types of constructors for Communication Objects. A default way to create it requires couple sub-objects:
 
 a. Control Field
+
 b. Source Address
+
 c. Destination Address
+
 d. AddressHopLength
+
 c. Payload
+
 
         CommunicationObject communicationObject = new CommunicationObject
                 (
